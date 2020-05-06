@@ -22,4 +22,8 @@ attr_accessor :name
       puts name.name
     end
   end
+  
+  def save
+    @@all << self
+  end
 end
