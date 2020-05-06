@@ -9,4 +9,4 @@ attr_accessor :name
   def self.all
     @@all
   end
-end3rt
+end
