@@ -20,5 +20,6 @@ attr_accessor :name
   def self.print_all(name)
     name.each do |name|
       puts "#{name}"
+    end
   end
 end
