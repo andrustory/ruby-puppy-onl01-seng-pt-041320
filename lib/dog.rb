@@ -16,4 +16,9 @@ attr_accessor :name
   def self.clear_all
     @@all.clear
   end 
+  
+  def self.print_all(name)
+    name.each do |name|
+      puts "#{name}"
+  end
 end
